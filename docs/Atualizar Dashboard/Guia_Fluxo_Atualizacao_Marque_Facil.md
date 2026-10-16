@@ -32,10 +32,7 @@ arquivo **Auto**.
 de acordo com o video abaixo, coloque o nome dos municipios correspondentes aos dados, uma funcao de soma para os valores e atualiza a celula na qual faz a some de cada competencia
 
 
-<video width="720" controls>
-  <source src="./Videos/geral-auto.mp4" type="video/mp4">
-  Seu navegador não suporta a reprodução de vídeos.
-</video>
+[▶️ Assistir ao tutorial](./Videos/geral-auto.mp4)
 
 ## 3. Auto → Apresentação
 
@@ -47,10 +44,7 @@ No arquivo **Apresentação**, a aba **POR MUNICIPIO** deve receber
 automaticamente os dados do Auto. Ao abrir o arquivo, utilize o comando
 **Atualizar**, caso essa seja a etapa configurada na planilha.
 
-<video width="720" controls>
-  <source src="./Videos/auto.mp4" type="video/mp4">
-  Seu navegador não suporta a reprodução de vídeos.
-</video>
+[▶️ Assistir ao tutorial](./Videos/auto.mp4)
 
 ## 4. Abas que precisam ser preenchidas manualmente
 

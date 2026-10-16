@@ -1,7 +1,5 @@
 # Documentação do Dashboard Marque Fácil
 
-Oct 16, 2026 · @Davi
-
 ## Visão geral
 
 O Marque Fácil é um relatório Power BI do CISBAF que acompanha procedimentos realizados, atendimentos e faltas (absenteísmo) de municípios credenciados ao CISBAF, de 2018 em diante. Os dados vêm de uma única planilha Excel em rede; não há API nem banco de dados.

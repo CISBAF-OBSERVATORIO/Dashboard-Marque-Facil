@@ -8,7 +8,14 @@ A atualização deve seguir esta ordem:
 
 **RELATÓRIO GERAL → AUTO → APRESENTAÇÃO**
 
-[![](https://mermaid.ink/img/pako:eNp9kM1qwkAQgF9lmVMLatdkJSYUIf4VD1WxemnTw5qMGkiyMm6oVTz10FOfpo-QF-smxdJScA_LzPB9M7N7hFBFCB6sEvUSbiRpNu8GFGTMHP8pgBkmUhefFCt2hyST2yXddKaEmIUbJJbKLJdJipnGAJ5Zvd5hXWP5i_mkIv0lxcSQhUkcShOkzNdGiA-SDH8e1K3EXilOZ4OHwXjuF-_F2-QX0quQvkGmkxm7X4xHveJjOvqeMsMQl8jUjkUyKm_Fyg3-6QOjW9yyLj7irzI0ylAmWu7YlXV9UYQarCmOwNOUYw1SpFSWKRzLhgHoDaaG80xIGOX7eqgSZb4hyE5G3crsUan0bJPK1xvwVjLZmSzfRlJjP5ZrkulPlTCLkHoqzzR4wq16gHeEPXjNttUQQvCW47oudx3HqcGrKXPRsFuiKVzBubBtW5xqcKjG8karZfG2cLjtOK7DhTh9AfsbqOI?type=png)](https://mermaid.live/edit#pako:eNp9kLFOwzAQQH_Fugmktripg5MIIaWhIAbaqLQLhMFNjjZSEqOrIwpVJwYmvoZP6I_hBIFASHiw7s7v3dneQqozhADuC_2YrhQZNhsmlFTMrvA2gSkWyuzfKdfsAkkVJws6Oo0JsUpXSKxUVa2KEiuDCdyxbveUDa0VzmeTlgwXlBNDlhZ5qmxQstBYIX9WZPmvQcNWjBoxno6uR-NZuH_dv0x-IFGLnFkknkzZ1Xx8Ge3f4svPKVNMcYFMr1mmsmbXrLnBH31kdYc7zr-P-K2cW-VcFUat2YFz-K8IHVhSnkFgqMYOlEilalLYNg0TMCssLRfYkDCrN91UF9p-Q1LtrPqgqhutyy-bdL1cQXCvirXN6odMGTzL1ZJU-V0lrDKkSNeVgUDItgcEW9hA0PecnhCCu9L3fe5LaU-fbJk7vYEr-i73pOj7A-9414Hndizvua7DPSH5QEpfciF2H_wyqO8)
+``` mermaid
+flowchart TD
+    A["Relatório Geral<br/>Preencher manualmente"] --> B["AUTO<br/>Abrir e clicar em Atualizar"]
+    B --> C["APRESENTAÇÃO"]
+    C --> D["POR MUNICÍPIO<br/>Recebe os dados do AUTO"]
+    C --> E["2022<br/>Preencher manualmente"]
+    C --> F["Faltas (2)<br/>Preencher manualmente"]
+
 ```
 
 A ordem é importante porque cada arquivo utiliza informações do arquivo

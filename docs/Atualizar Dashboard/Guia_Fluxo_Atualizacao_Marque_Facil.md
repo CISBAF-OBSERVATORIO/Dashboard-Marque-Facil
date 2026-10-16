@@ -10,11 +10,12 @@ A atualização deve seguir esta ordem:
 
 ``` mermaid
 flowchart TD
-    A[Relatório Geral<br/>Preencher manualmente] --> B[AUTO<br/>Recebe os dados do relatório geral, basta abrir e clicar em atualizar]
-    B --> C[APRESENTAÇÃO]
-    C --> D[POR MUNICIPIO<br/>Recebe os dados do AUTO]
-    C --> E[2022 <br/>Preencher manualmente]
-    C --> F[Faltas (2)<br/>Preencher manualmente]
+    A["Relatório Geral<br/>Preencher manualmente"] --> B["AUTO<br/>Abrir e clicar em Atualizar"]
+    B --> C["APRESENTAÇÃO"]
+    C --> D["POR MUNICÍPIO<br/>Recebe os dados do AUTO"]
+    C --> E["2022<br/>Preencher manualmente"]
+    C --> F["Faltas (2)<br/>Preencher manualmente"]
+
 ```
 
 A ordem é importante porque cada arquivo utiliza informações do arquivo

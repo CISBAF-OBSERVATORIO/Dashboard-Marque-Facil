@@ -9,7 +9,7 @@ A atualização deve seguir esta ordem:
 **RELATÓRIO GERAL → AUTO → APRESENTAÇÃO**
 
 ``` mermaid
-flowchart TD
+flowchart TB
     A["Relatório Geral<br/>Preencher manualmente"] --> B["AUTO<br/>Abrir e clicar em Atualizar"]
     B --> C["APRESENTAÇÃO"]
     C --> D["POR MUNICÍPIO<br/>Recebe os dados do AUTO"]

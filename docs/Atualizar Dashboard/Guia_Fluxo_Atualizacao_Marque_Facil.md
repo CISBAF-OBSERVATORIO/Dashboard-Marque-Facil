@@ -10,11 +10,11 @@ A atualização deve seguir esta ordem:
 
 ``` mermaid
 flowchart TD
-    A["Relatório Geral<br/>Preencher manualmente"] --> B["AUTO<br/>Abrir e clicar em Atualizar"]
+    A["RELATÓRIO GERAL<br/>Preencher<br/> manualmente"] --> B["AUTO<br/>Abrir e clicar em<br/> Atualizar"]
     B --> C["APRESENTAÇÃO"]
-    C --> D["POR MUNICÍPIO<br/>Recebe os dados do AUTO"]
-    C --> E["2022<br/>Preencher manualmente"]
-    C --> F["Faltas (2)<br/>Preencher manualmente"]
+    C --> D["POR MUNICÍPIO<br/>Recebe os dados<br/> do AUTO"]
+    C --> E["2022<br/>Preencher<br/> manualmente"]
+    C --> F["Faltas (2)<br/>Preencher<br/> manualmente"]
 
 ```
 
@@ -32,7 +32,10 @@ arquivo **Auto**.
 de acordo com o video abaixo, coloque o nome dos municipios correspondentes aos dados, uma funcao de soma para os valores e atualiza a celula na qual faz a some de cada competencia
 
 
-[▶️ Assistir ao tutorial](./Videos/geral-auto.mp4)
+<video width="720" controls>
+  <source src="./Videos/geral-auto.mp4" type="video/mp4">
+  Seu navegador não suporta a reprodução de vídeos.
+</video>
 
 ## 3. Auto → Apresentação
 
@@ -44,7 +47,10 @@ No arquivo **Apresentação**, a aba **POR MUNICIPIO** deve receber
 automaticamente os dados do Auto. Ao abrir o arquivo, utilize o comando
 **Atualizar**, caso essa seja a etapa configurada na planilha.
 
-[▶️ Assistir ao tutorial](./Videos/auto.mp4)
+<video width="720" controls>
+  <source src="./Videos/auto.mp4" type="video/mp4">
+  Seu navegador não suporta a reprodução de vídeos.
+</video>
 
 ## 4. Abas que precisam ser preenchidas manualmente
 

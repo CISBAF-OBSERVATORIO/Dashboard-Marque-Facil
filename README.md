@@ -12,7 +12,7 @@ O Marque Fácil é um relatório Power BI do CISBAF que acompanha procedimentos 
 
 ## Fontes de dados
 
-Todas as tabelas vêm de quatro abas da mesma planilha Excel, lida pelo Power Query com `Excel.Workbook(File.Contents(...))`. O arquivo não contém nenhuma chamada a API, banco de dados ou serviço web; planilha é preenchida manualmente atraves dos dados capturados pela API, que se encontra no repositório [CISBAF-OBSERVATORIO/api-hygia](https://github.com/CISBAF-OBSERVATORIO/api-hygia)&#32;
+Todas as tabelas vêm de quatro abas da mesma planilha Excel, lida pelo Power Query com `Excel.Workbook(File.Contents(...))`. O arquivo não contém nenhuma chamada a API, banco de dados ou serviço web; planilha é preenchida manualmente através dos relatórios financeiros puxados diretamente do sistema do E-Client ou através dos dados capturados pela API, que se encontra no repositório [CISBAF-OBSERVATORIO/api-hygia](https://github.com/CISBAF-OBSERVATORIO/api-hygia)&#32;
 
 - Arquivo: `S:\OBSERVATORIO\PROJETOS\BI e Afins\MARQUE FACIL\apresentação.xlsx`
 - Tipo: pasta de rede (unidade S:), caminho absoluto fixo nas quatro consultas

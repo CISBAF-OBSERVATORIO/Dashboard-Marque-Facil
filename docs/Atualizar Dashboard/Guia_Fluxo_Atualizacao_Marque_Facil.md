@@ -28,13 +28,10 @@ No arquivo **Relatório Geral**, acesse a aba correspondente ao ano que
 deseja atualizar. Essa aba é a origem dos dados que devem alimentar o
 arquivo **Auto**.
 
-de acordo com o video abaixo, coloque o nome dos municipios correspondentes aos dados e municipio no cabeçalho
+de acordo com o video abaixo, coloque o nome dos municipios correspondentes aos dados, uma funcao de soma para os valores e atualiza a celula na qual faz a some de cada competencia
 
-Antes de seguir para o próximo arquivo, confira se a aba do ano correto
-contém os dados atualizados e se o período/competência desejado está
-correto.
 
-[▶️ Assistir ao tutorial](./geral-auto.mp4)
+[▶️ Assistir ao tutorial](./Videos/geral-auto.mp4)
 
 ## 3. Auto → Apresentação
 
@@ -46,36 +43,17 @@ No arquivo **Apresentação**, a aba **POR MUNICIPIO** deve receber
 automaticamente os dados do Auto. Ao abrir o arquivo, utilize o comando
 **Atualizar**, caso essa seja a etapa configurada na planilha.
 
-## 4. Abas que precisam ser preenchidas automaticamente
+[▶️ Assistir ao tutorial](./Videos/auto.mp4)
 
-As abas abaixo, no arquivo **Apresentação**, também precisam ser
-preenchidas automaticamente, sem depender de cópia e colagem manual:
+## 4. Abas que precisam ser preenchidas manualmente
 
--   **2022** --- deve receber os dados correspondentes do Relatório
-    Geral, por meio do fluxo de atualização definido.
--   **Faltas (2)** --- deve receber automaticamente os dados de faltas
-    da fonte correspondente no Relatório Geral.
+As abas abaixo, no arquivo **Apresentação**, precisam ser
+preenchidas manualmente:
 
-A automação dessas duas abas deve respeitar o mesmo fluxo de origem dos
-dados: **Relatório Geral → Auto → Apresentação**. A fonte exata, os
-intervalos e as colunas de cada aba devem ser conferidos nas planilhas
-para configurar corretamente as fórmulas ou conexões.
+-   **2022**
+-   **Faltas (2)**
 
-## 5. Conferência final
-
--   [ ] Confirmar que a aba do ano correto foi atualizada no Relatório
-    Geral.
--   [ ] Verificar se o Auto recebeu os dados esperados.
--   [ ] Atualizar a aba **POR MUNICIPIO** no arquivo Apresentação.
--   [ ] Confirmar que as abas **2022** e **Faltas (2)** são preenchidas
-    automaticamente.
--   [ ] Conferir se os totais e as competências estão coerentes entre os
-    arquivos antes de atualizar ou usar o Power BI.
 
 ------------------------------------------------------------------------
 
 **Fluxo resumido:** Relatório Geral → Auto → Apresentação
-
-> **Observação:** este guia descreve o fluxo desejado. A necessidade de
-> automatizar as abas **2022** e **Faltas (2)** está registrada aqui,
-> mas a automação precisa ser configurada e validada nas planilhas.

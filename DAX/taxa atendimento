@@ -1,0 +1,1 @@
+Taxa Atendimento = SUM('Faltas (2)'[Atendimento])/[Agendamento]

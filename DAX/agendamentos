@@ -1,0 +1,1 @@
+Agendamento = SUM('Faltas (2)'[Falta]) + SUM('Faltas (2)'[Atendimento])

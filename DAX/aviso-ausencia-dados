@@ -1,0 +1,8 @@
+MensagemAusenciaDados = 
+VAR SomaFaltas = SUM('Faltas (2)'[Falta])
+RETURN
+    IF(
+        SomaFaltas = 0,
+        "Os dados referentes ao número de faltas nesta competência não foram registrados no banco de dados do sistema. Por esse motivo, as informações não serão exibidas",
+        ""
+    )
